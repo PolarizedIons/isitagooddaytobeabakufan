@@ -20,6 +20,7 @@ img {
     transform: translate3d(-50%, -50%, 0);
     border-radius: 100%;
     box-shadow: 5px 5px 5px 0 #414141, -5px -5px 5px 0 #cecece;
+    border: 3px solid #916236; 
 
     transition: transform ease-in-out 0.2s;
 }
