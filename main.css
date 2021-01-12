@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    max-width: 100%;
+    background: #afafaf;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px 0 #414141, -5px -5px 5px 0 #cecece;
+
+    transition: transform ease-in-out 0.2s;
+}
+
+img:hover {
+    transform: translate3d(-50%, -50%, 0) scale(1.1);
+}
